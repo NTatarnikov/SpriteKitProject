@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		117C80E426F36E36008FC2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117C80E326F36E36008FC2BF /* AppDelegate.swift */; };
 		117C80E626F36E36008FC2BF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 117C80E526F36E36008FC2BF /* GameScene.sks */; };
-		117C80E826F36E36008FC2BF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 117C80E726F36E36008FC2BF /* Actions.sks */; };
 		117C80EA26F36E36008FC2BF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117C80E926F36E36008FC2BF /* GameScene.swift */; };
 		117C80EC26F36E36008FC2BF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117C80EB26F36E36008FC2BF /* GameViewController.swift */; };
 		117C80EF26F36E36008FC2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117C80ED26F36E36008FC2BF /* Main.storyboard */; };
 		117C80F126F36E37008FC2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117C80F026F36E37008FC2BF /* Assets.xcassets */; };
+		11FA049126F3F7B800D0481E /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 11FA049026F3F7B800D0481E /* FireParticles.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		117C80E026F36E36008FC2BF /* SpriteKitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		117C80E326F36E36008FC2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		117C80E526F36E36008FC2BF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		117C80E726F36E36008FC2BF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		117C80E926F36E36008FC2BF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		117C80EB26F36E36008FC2BF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		117C80EE26F36E36008FC2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		117C80F026F36E37008FC2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117C80F226F36E37008FC2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FA049026F3F7B800D0481E /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				117C80E326F36E36008FC2BF /* AppDelegate.swift */,
 				117C80E526F36E36008FC2BF /* GameScene.sks */,
-				117C80E726F36E36008FC2BF /* Actions.sks */,
 				117C80E926F36E36008FC2BF /* GameScene.swift */,
 				117C80EB26F36E36008FC2BF /* GameViewController.swift */,
 				117C80ED26F36E36008FC2BF /* Main.storyboard */,
 				117C80F026F36E37008FC2BF /* Assets.xcassets */,
 				117C80F226F36E37008FC2BF /* Info.plist */,
+				11FA049026F3F7B800D0481E /* FireParticles.sks */,
 			);
 			path = SpriteKitProject;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				117C80EF26F36E36008FC2BF /* Main.storyboard in Resources */,
+				11FA049126F3F7B800D0481E /* FireParticles.sks in Resources */,
 				117C80E626F36E36008FC2BF /* GameScene.sks in Resources */,
 				117C80F126F36E37008FC2BF /* Assets.xcassets in Resources */,
-				117C80E826F36E36008FC2BF /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NikitaTatarnikov.SpriteKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NikitaTatarnikov.SpriteKitProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
